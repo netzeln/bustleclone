@@ -1,0 +1,35 @@
+.btn {
+  margin: 10px;
+}
+
+header {
+  text-align: center;
+}
+
+/*img {
+  max-width: 500px;
+}*/
+h1 {
+  text-align: center;
+}
+
+body {
+  height: 100%;
+  margin-bottom: 50px;
+}
+
+.panel {
+  max-width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+
+.panel-title {
+  font-size: 120%;
+  text-decoration: underline;
+}
+
+.panel-title:hover {
+  cursor: pointer;
+}
