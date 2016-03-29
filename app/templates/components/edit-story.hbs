@@ -1,0 +1,5 @@
+{{#if isSelected}}
+  <button class="list-group-item active" {{action 'unSelected' post}}>{{post.headline}}</button>
+{{else}}
+  <button class="list-group-item" {{action 'isSelected' post}}>{{post.headline}}</button>
+{{/if}}

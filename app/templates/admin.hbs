@@ -8,10 +8,11 @@
   <div class="col-md-5">
     <h2>Edit Current Stories</h2>
     <div class="list-group">
-      {{#each model as |headline|}}
-        <button class="list-group-item">{{headline.headline}}</button>
+      {{#each model as |post|}}
+        {{edit-story post=post}}
       {{/each}}
     </div>
+
 
   </div>
 </div>
