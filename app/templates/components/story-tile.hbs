@@ -1,6 +1,4 @@
-<div class="">
-  <h3>{{story.headline}}</h3>
-  <h4><em>by {{story.byline}}</em>, {{story.posted}}</h4>
+<div class="story">
+  <h3>{{#link-to 'fullstory' story.id}} {{story.headline}} {{/link-to}}</h3>
   <img src={{story.image}}>
-  <p>{{story.body}}</p>
 </div>
